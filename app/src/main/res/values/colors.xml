@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryLightColor">#BB86FC</color>
+    <color name="primaryDarkColor">#3700B3</color>
+    <color name="secondaryColor">#03DAC6</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="buttonColor">#E0E0E0</color>
+    <color name="buttonTextColor">#000000</color>
+    <color name="buttonBackspaceColor">#FFCDD2</color>
+    <color name="buttonClearColor">#FFEB3B</color>
+    <color name="buttonEqualsColor">#4CAF50</color>
+    <color name="displayBackgroundColor">#EEEEEE</color>
+    <color name="displayTextColor">#000000</color>
+</resources>

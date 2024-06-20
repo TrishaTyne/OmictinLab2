@@ -1,0 +1,50 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+    </style>
+
+    <!-- Button base style -->
+    <style name="CalcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:background">@color/buttonColor</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Backspace button style -->
+    <style name="CalcButton.Backspace" parent="CalcButton">
+        <item name="android:background">@color/buttonBackspaceColor</item>
+    </style>
+
+    <!-- Clear button style -->
+    <style name="CalcButton.Clear" parent="CalcButton">
+        <item name="android:background">@color/buttonClearColor</item>
+    </style>
+
+    <!-- Equals button style -->
+    <style name="CalcButton.Equals" parent="CalcButton">
+        <item name="android:background">@color/buttonEqualsColor</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+    </style>
+
+    <!-- Display text style -->
+    <style name="DisplayText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/displayBackgroundColor</item>
+        <item name="android:gravity">end</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/displayTextColor</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+</resources>
